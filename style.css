@@ -1,0 +1,22 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+h2 {
+    text-align: center;
+    font-size: 18px;
+}
+body {
+    background-color: azure; 
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    padding: 5px;
+  }
